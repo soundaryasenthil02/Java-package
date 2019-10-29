@@ -12,7 +12,7 @@ package collegetransportapplication;
 public class Bus implements Runnable {
 	private String name;
 	private Commute commute; 
-	private static long time = System.currentTimeMillis();
+	
 	
 	public Bus (int id, Commute commute)
 	{
@@ -31,14 +31,7 @@ public class Bus implements Runnable {
 		System.out.println(getName() + ": " + m);
 	}
 	
-	//generates a random time between 1000 and 3000 milliseconds
-	private int simulatedBusTime()
-	{
-		int busTime = ((int)(Math.random()*2000 + 1000));
-		msg("Traveling to school for " + busTime + " ms");
-					
-		return busTime;
-	}
+
 	
 	//sleeps a random amount of time within provided range
 	private void simulatedWait(int range, int minTime)
