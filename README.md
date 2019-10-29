@@ -3,6 +3,6 @@ This package depicts a scenario where students arrive at college to attend an ev
 
 The package is built with three thread classes namely - student, bus and coordinator. 
 Other specifications include :
-  1. The students who travel via bus and car are chosen at random by random fuction. If value is less than 0.5, the person travels by bus else by car.
-  2. There are two buses that commute back and forth. The student in signalled to indicate that the bus has arrived at the bus stop. It is put under wait and notified when the bus capacity is filled.
-  3. The students who arrive by car are paired up with coordinators. Each coordinator can handle only one student at a time. Once one coordinator knows that no student is left to be handled, it sends a message to all the coordinators.
+  1. The students who travel via bus and car are chosen at random by random fuction. If value is less than 0.5, the person travels by bus else by car.The commute time for cars and buses are simulated by sleep of random time.
+  2. There are two buses that commute back and forth. The student in signalled to indicate that the bus has arrived at the bus stop. It is put under wait and notified when the bus capacity is filled.The bus commute takes a random amount of time. Once the bus is parked, the bus will signal the students of the group that were riding the bus, to get off the bus. 
+  3. The students who arrive by car are paired up with coordinators. Each coordinator can handle only one student at a time. Once one coordinator knows that no student is left to be handled, it sends a message to all the coordinators that for now their job is done.
