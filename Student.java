@@ -12,7 +12,6 @@ package collegetransportapplication;
 public class Student implements Runnable {
 	private String name;
 	private Commute commute;
-	//private static long time = System.currentTimeMillis();
 	
 	public Student (int id, Commute commute)
 	{
