@@ -5,4 +5,4 @@ The package is built with three thread classes namely - student, bus and coordin
 Other specifications include :
   1. The students who travel via bus and car are chosen at random by random fuction. If value is less than 0.5, the person travels by bus else by car.
   2. There are two buses that commute back and forth. The student in signalled to indicate that the bus has arrived at the bus stop. It is put under wait and notified when the bus capacity is filled.
-  3. The students who arrive by car are paired up with coordinators. Each coordinator can handle onl one student at a time. Once one coordinator knows that no student is left to be handled, it sends a message to all the coordinators.
+  3. The students who arrive by car are paired up with coordinators. Each coordinator can handle only one student at a time. Once one coordinator knows that no student is left to be handled, it sends a message to all the coordinators.
