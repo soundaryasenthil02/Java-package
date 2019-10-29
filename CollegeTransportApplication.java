@@ -16,10 +16,10 @@ public class CollegeTransportApplication {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int numStudents = 20;
+        int numStudents = 100;
 	int numBuses = 2;
-	int numCoordinators = 3;
-	int busCapacity = 4;
+	int numCoordinators = 40;
+	int busCapacity = 20;
 	Commute commute = new Commute (numStudents, busCapacity, numCoordinators);
 		
 	//creates the students, buses, and coordinators
