@@ -26,7 +26,7 @@ public class Bus implements Runnable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public void msg(String m)
+	public void messsage(String m)
 	{
 		System.out.println(getName() + ": " + m);
 	}
